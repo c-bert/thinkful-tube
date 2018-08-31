@@ -1,0 +1,47 @@
+* {box-sizing: border-box;}
+/* system font stack https://css-tricks.com/snippets/css/system-font-stack/ */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #1D3B47;
+    background: #e4ece9;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+header {
+    color: #e4ece9;
+    background: #1D3B47;
+    border-bottom: 5px solid #F2545B;
+    padding: 2rem 0;
+    text-align: center;
+}
+header h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+#query {
+    width: 212px;
+    margin-right: 3px;
+}
+#query + button {
+    background: #F2545B;
+    color: #e4ece9;
+}
+#query, #query + button {
+    vertical-align: top;
+    font-size: 1rem;
+    border: none;
+    padding: 6px;
+}
+main {
+    padding: 2rem 1rem 4rem;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+main h2 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #1D3B47;
+    margin-bottom: 1rem;
+}
