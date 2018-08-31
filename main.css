@@ -45,3 +45,22 @@ main h2 {
     border-bottom: 2px solid #1D3B47;
     margin-bottom: 1rem;
 }
+main h3 {
+    color: #F2545B;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: .5rem;
+}
+.box {
+    background: #fff;
+    padding: 1rem;
+}
+
+@media screen and (min-width: 600px) {
+    .js-search-results {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 1rem;
+        grid-row-gap: 2rem;
+    }
+}
